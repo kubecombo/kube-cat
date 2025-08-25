@@ -2,4 +2,5 @@
 resources:
 - cat_v1_clusterchecker.yaml
 - cat_v1_onechecker.yaml
+- cat_v1_customping.yaml
 # +kubebuilder:scaffold:manifestskustomizesamples

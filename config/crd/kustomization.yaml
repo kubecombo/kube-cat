@@ -4,6 +4,7 @@
 resources:
 - bases/cat.kubecat.com_clustercheckers.yaml
 - bases/cat.kubecat.com_onecheckers.yaml
+- bases/cat.kubecat.com_custompings.yaml
 # +kubebuilder:scaffold:crdkustomizeresource
 
 patches:

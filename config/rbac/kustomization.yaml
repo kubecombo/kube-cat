@@ -22,6 +22,9 @@ resources:
 # default, aiding admins in cluster management. Those roles are
 # not used by the kube-cat itself. You can comment the following lines
 # if you do not want those helpers be installed with your Project.
+- customping_admin_role.yaml
+- customping_editor_role.yaml
+- customping_viewer_role.yaml
 - onechecker_admin_role.yaml
 - onechecker_editor_role.yaml
 - onechecker_viewer_role.yaml
