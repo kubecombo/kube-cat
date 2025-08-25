@@ -115,6 +115,9 @@ var _ = BeforeSuite(func() {
 	err = SetupOneCheckerWebhookWithManager(mgr)
 	Expect(err).NotTo(HaveOccurred())
 
+	err = SetupCustomPingWebhookWithManager(mgr)
+	Expect(err).NotTo(HaveOccurred())
+
 	// +kubebuilder:scaffold:webhook
 
 	go func() {
