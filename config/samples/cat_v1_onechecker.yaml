@@ -1,0 +1,9 @@
+apiVersion: cat.kubecat.com/v1
+kind: OneChecker
+metadata:
+  labels:
+    app.kubernetes.io/name: kube-cat
+    app.kubernetes.io/managed-by: kustomize
+  name: onechecker-sample
+spec:
+  # TODO(user): Add fields here

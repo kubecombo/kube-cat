@@ -22,6 +22,9 @@ resources:
 # default, aiding admins in cluster management. Those roles are
 # not used by the kube-cat itself. You can comment the following lines
 # if you do not want those helpers be installed with your Project.
+- onechecker_admin_role.yaml
+- onechecker_editor_role.yaml
+- onechecker_viewer_role.yaml
 - clusterchecker_admin_role.yaml
 - clusterchecker_editor_role.yaml
 - clusterchecker_viewer_role.yaml

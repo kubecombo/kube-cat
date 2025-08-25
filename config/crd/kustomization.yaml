@@ -3,6 +3,7 @@
 # It should be run by config/default
 resources:
 - bases/cat.kubecat.com_clustercheckers.yaml
+- bases/cat.kubecat.com_onecheckers.yaml
 # +kubebuilder:scaffold:crdkustomizeresource
 
 patches:
