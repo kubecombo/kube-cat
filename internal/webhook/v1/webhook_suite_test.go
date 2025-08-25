@@ -112,6 +112,9 @@ var _ = BeforeSuite(func() {
 	err = SetupClusterCheckerWebhookWithManager(mgr)
 	Expect(err).NotTo(HaveOccurred())
 
+	err = SetupOneCheckerWebhookWithManager(mgr)
+	Expect(err).NotTo(HaveOccurred())
+
 	// +kubebuilder:scaffold:webhook
 
 	go func() {
